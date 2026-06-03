@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'IBM Plex Sans', sans-serif;
+  --font-heading: 'Bebas Neue', sans-serif;
+  
+  --color-industrial-charcoal: #111318;
+  --color-industrial-steel: #1E3A5F;
+  --color-industrial-steel-light: #2c5282;
+  --color-industrial-orange: #E8620A;
+  --color-industrial-orange-hover: #ff7722;
+}
+
+/* Custom gritty industrial background gradient / grid overlay */
+.bg-grid-pattern {
+  background-size: 40px 40px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+}
+.bg-road-texture {
+  background-image: radial-gradient(circle at center, rgba(30, 58, 95, 0.15) 0%, rgba(17, 19, 24, 0.95) 100%);
+}
